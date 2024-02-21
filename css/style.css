@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: rgb(209, 208, 205);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+/* Estilos específicos */
+#hero {
+    background-image: url('/img/menu1.webp');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    margin: 0;
+}
+
+#hero p {
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    margin-bottom: 50px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.menu-item h3 {
+    margin-top: 20px;
+}
+
+.menu-item p {
+    margin-bottom: 10px;
+}
+
+.menu-item .price {
+    font-weight: bold;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
